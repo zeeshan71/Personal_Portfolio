@@ -294,10 +294,10 @@ img {
 
 .home_data{
   grid-column: 1/3;
-  /*
+  
   width: 125%; 
   max-width: 600px; /* Example: Maximum width to maintain readability */
- /* margin: 0 auto; /* Centers the paragraph horizontally */
+  margin: 0 auto; /* Centers the paragraph horizontally */
 
 }
 
