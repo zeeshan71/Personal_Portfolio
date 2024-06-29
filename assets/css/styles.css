@@ -278,6 +278,7 @@ img {
   color: var(--first-color);
 }
 
+
 .home_social-icon:hover{
   color: var(--first-color-alt);
 }
@@ -1088,7 +1089,8 @@ img {
 }
 
 
-@media screen and (min-width: 568px) /*earlier 568*/ {
+/*Mobile CSS*/
+@media screen and (min-width: 568px)  {
   .home_content{
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -1273,3 +1275,9 @@ img {
   }
 }
 
+.desc_par{
+  margin-bottom: var(--mb-2);
+  text-align: justify;
+ 
+  grid-template-columns: max-content 1fr 1fr;
+}
